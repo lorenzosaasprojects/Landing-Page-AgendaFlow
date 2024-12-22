@@ -16,7 +16,7 @@ export const Hero = () => {
     <div className="bg-[#0a0a0a] text-white relative">
       {/* Banner promocional */}
       <div className="bg-gradient-to-r from-[#09b36e] to-[#09b36e]/80 py-2 px-4 text-center text-sm text-white">
-        🎉 Transforme a gestão do seu negócio com tecnologia de ponta!
+        Transforme a gestão do seu negócio com tecnologia de ponta!
       </div>
 
       {/* Header */}
@@ -43,7 +43,7 @@ export const Hero = () => {
       <section className="container mx-auto px-4 pt-40 pb-20 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="inline-block bg-[#1c1c1c] px-4 py-1 rounded-full text-sm mb-6">
-            ✨ Gestão Inteligente para Seu Negócio
+            Gestão Inteligente para Seu Negócio
           </div>
           
           <h1 className="text-5xl font-bold mb-6">
@@ -71,7 +71,7 @@ export const Hero = () => {
           </div>
 
           <div className="inline-block bg-[#1c1c1c] px-4 py-1 rounded-full text-sm">
-            🚀 Mais de 500 negócios já transformaram sua gestão com o Agenda Flow
+            Mais de 500 negócios já transformaram sua gestão com o Agenda Flow
           </div>
         </div>
       </section>
