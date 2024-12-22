@@ -55,10 +55,30 @@ export default {
             opacity: "1",
           },
         },
+        "light-sweep": {
+          "0%": { 
+            transform: "translateX(-100%)",
+          },
+          "100%": { 
+            transform: "translateX(300%)",
+          }
+        },
+        "light-pulse": {
+          "0%, 100%": { 
+            transform: "translateX(-100%) skew-x-12",
+            opacity: "0"
+          },
+          "50%": { 
+            transform: "translateX(300%) skew-x-12",
+            opacity: "0.7"
+          }
+        }
       },
       animation: {
         "fade-up": "fade-up 0.5s ease-out",
-        "fade-in": "fade-in 0.3s ease-out",
+        "fade-in": "fade-in 0.5s ease-out",
+        "light-sweep": "light-sweep 3s ease-in-out infinite",
+        "light-pulse": "light-pulse 3s ease-in-out infinite"
       },
     },
   },

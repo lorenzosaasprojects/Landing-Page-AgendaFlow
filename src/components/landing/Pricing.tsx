@@ -58,18 +58,20 @@ export const Pricing = () => {
 
   return (
     <div className="bg-[#0a0a0a] text-white py-20">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <div className="inline-block bg-[#1c1c1c] px-4 py-1 rounded-full text-sm text-[#09b36e] mb-4">
-            💎 Planos Especiais
-          </div>
-          <h2 className="text-4xl font-bold mb-4">
-            Escolha o Plano Ideal para Seu Negócio
+      <div className="container mx-auto px-4 py-16">
+        <div className="text-center mb-12 relative">
+          <div className="absolute -z-10 -inset-2 bg-gradient-to-r from-[#09b36e]/10 via-[#09b36e]/5 to-[#09b36e]/10 rounded-xl blur-2xl opacity-70 transform -rotate-2"></div>
+          <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4 relative">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#09b36e] to-[#0be881] inline-block">
+              Nossos Planos
+            </span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
-            Oferecemos planos flexíveis que crescem junto com sua empresa. 
-            Todos os planos incluem atualizações gratuitas e suporte técnico.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto relative">
+            Escolha o plano ideal para o seu negócio
           </p>
+          <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-light-sweep opacity-50"></div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
@@ -138,8 +140,8 @@ export const Pricing = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="inline-block bg-[#1c1c1c] px-4 py-1 rounded-full text-sm">
-            🔒 14 dias de garantia incondicional de devolução do dinheiro
+          <div className="mt-4 inline-block bg-[#1c1c1c] px-4 py-1 rounded-full text-sm">
+            🔒 7 dias de garantia incondicional de devolução do seu dinheiro
           </div>
         </div>
       </div>

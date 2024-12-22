@@ -72,6 +72,15 @@ body {
   color: transparent;
 }
 
+/* Remover scrollbar personalizada */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+*::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
